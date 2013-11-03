@@ -34,7 +34,7 @@ NGINX=$(which nginx)
 
 ## The paths for both nginx configuration files and the sites
 ## configuration files and symbolic link destinations.
-NGINX_CONF_DIR=/etc/nginx
+NGINX_CONF_DIR=$HOME/.local/etc/nginx
 AVAILABLE_SITES_PATH="$NGINX_CONF_DIR/sites-available"
 ENABLED_SITES_PATH="$NGINX_CONF_DIR/sites-enabled"
 AVAILABLE_SITES_DIR="sites-available"
