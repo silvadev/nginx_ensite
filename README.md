@@ -22,8 +22,8 @@ Note that the script assumes a specific file system topology for your
 `nginx` configuration. Here's the rundown:
 
  1. All virtual hosts configuration files should be under
-    `/etc/nginx/sites-available`. For example the virtual host `foobar`
-    is configured through a file in `/etc/nginx/sites-available`.
+    `$HOME/.local/etc/nginx/sites-available`. For example the virtual host `foobar`
+    is configured through a file in `$HOME/.local/etc/nginx/sites-available`.
 
  2. After running the script with `foobar` as argument: `nginx_ensite
     foobar`. A symbolic link `/etc/nginx/sites-enabled/foobar ->
